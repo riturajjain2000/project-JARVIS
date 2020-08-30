@@ -110,7 +110,7 @@ if __name__ == "__main__":
 
         elif 'search in chrome' in query:
             speak("what should i search?")
-            chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'Add the Location of the chrome browser
+            chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'#Add the Location of the chrome browser
 
             r = sr.Recognizer()
 
