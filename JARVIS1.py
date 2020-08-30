@@ -89,7 +89,7 @@ def lighton():
 
 def lightoff():
     driver = webdriver.Chrome('C:/Users/HACKER47/Downloads/chromedriver.exe')
-    driver.get("https://Add here.000webhostapp.com/main.html")Add the webhost name
+    driver.get("https://Add here.000webhostapp.com/main.html")#Add the webhost name
     elem1 = driver.find_element_by_id("S1on")
     elem1.click()
             
