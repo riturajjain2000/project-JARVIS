@@ -164,7 +164,7 @@ if __name__ == "__main__":
             speak(year)
 
 
-        elif 'email to harry' and 'send email' in query:
+        elif 'email to Rituraj' and 'send email' in query:
             try:
                 speak("What should I say?")
                 content = takeCommand()
