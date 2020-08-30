@@ -195,8 +195,7 @@ if __name__ == "__main__":
             speak("Lights are off")
 
 
-
-        elif 'go offline' in query:
+        elif 'go offline' or 'sleep' or 'abort' or 'shutdown' or 'takerest' in query:
             speak("ok sir shutting down the system")
             quit()
 
