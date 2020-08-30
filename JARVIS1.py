@@ -83,7 +83,7 @@ def sendEmail(to, content):
 
 def lighton():
     driver = webdriver.Chrome('C:/Users/Username/Downloads/chromedriver.exe')add the location of the chrome Drivers
-    driver.get("https://Add here.000webhostapp.com/main.html")Add the webhost name
+    driver.get("https://Add here.000webhostapp.com/main.html")#Add the webhost name
     elem1 = driver.find_element_by_id("S1off")
     elem1.click()
 
