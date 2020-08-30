@@ -39,16 +39,16 @@ def wishMe():
     speak(month)
     speak(year)
     if hour>=6 and hour<12:
-        speak("Good Morning AK47!")
+        speak("Good Morning Rituraj Sir!")
 
     elif hour>=12 and hour<18:
-        speak("Good Afternoon AK47!")
+        speak("Good Afternoon Rituraj Sir!")
 
     elif hour>=18 and hour<24:
-        speak("Good Evening AK47!")
+        speak("Good Evening Rituraj Sir!")
 
     else:
-        speak("Good Night AK47!")
+        speak("Good Night Rituraj Sir!")
 
     speak("Jarvis at your Service. Please tell me how can I help You ")
 #wishMe()
@@ -63,7 +63,7 @@ def takeCommand():
     try:
         print("Recognizing...")
         query = r.recognize_google(audio, language='en-in')
-        print(f"AK47 Said:{query}\n")
+        print(f"Rituraj Sir Said:{query}\n")
 
     except Exception as e:
         print(e)
